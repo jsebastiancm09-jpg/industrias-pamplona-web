@@ -1,4 +1,16 @@
 User-agent: *
 Allow: /
 
+# Bloquear archivos innecesarios
+Disallow: /css/
+Disallow: /js/
+
+# Sitemap
 Sitemap: https://industriaspamplona.com/sitemap.xml
+
+# Rastreadores específicos
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /img/
